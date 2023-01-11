@@ -41,7 +41,7 @@ export default function Map() {
     const blueOption = { color: '#2eb2ff' };
 
     return (
-        <MapContainer className={style.map} center={[49.28594, -123.11129]} zoom={14} scrollWheelZoom={true}>
+        <MapContainer className={style.map} center={[49.23855530902799, -123.00385127225569]} zoom={12} scrollWheelZoom={true}>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
